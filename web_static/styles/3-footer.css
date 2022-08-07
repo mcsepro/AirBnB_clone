@@ -1,13 +1,10 @@
-p {
-    text-align: center;
-    padding: 8px;
-}
-
 footer {
-    background: #FFFFFF;
-    height: 70px;
+    background-color: #ffffff ; 
+    height: 60px;
     width: 100%;
-    left: 0;
+    text-align: center;
+    position: fixed;
     bottom: 0;
-    border-top: 1px solid #CCCCCC
+    border-top-style: solid;
+    border-width: 1px #CCCCCC;
 }
