@@ -1,10 +1,18 @@
-footer {
-    background-color: #ffffff ; 
-    height: 60px;
-    width: 100%;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    border-top-style: solid;
-    border-width: 1px #CCCCCC;
+.footer {
+	align-items: center;
+	background-color: white;
+	border-top: 1px solid #CCCCCC;
+	display: flex;
+	height: 60px;
+	justify-content: center;
+	width: 100%;
+}
+
+.footer-absolute {
+	bottom: 0;
+	position: absolute;
+}
+
+.footer-dynamic {
+	flex-shrink: 0;
 }
